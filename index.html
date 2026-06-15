@@ -1,11 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soft Return Press</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            background: #e8e4de;
+            color: #222;
+            font-family: "Libre Baskerville", serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 45px 80px;
+        }
+
+        .logo img {
+            width: 140px;
+            height: auto;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #222;
+            margin-left: 40px;
+            font-size: 18px;
+        }
+
+        nav a.active {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 120px auto;
+            line-height: 1.5;
+        }
+
+        main p {
+            font-size: 22px;
+            margin-bottom: 40px;
+        }
+
+        .tagline {
+            font-style: italic;
+        }
+
+        .button {
+            display: inline-block;
+            margin-left: 25px;
+            background: #000;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 80px 20px 40px;
+        }
+
+        .social {
+            margin-bottom: 20px;
+        }
+
+        .social a {
+            color: #222;
+            text-decoration: none;
+            font-size: 28px;
+            margin: 0 10px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        @media (max-width: 900px) {
+
+            header {
+                flex-direction: column;
+                gap: 30px;
+                padding: 30px;
+            }
+
+            nav a {
+                margin-left: 0;
+                margin-right: 20px;
+            }
+
+            main {
+                margin: 60px 30px;
+            }
+
+            main p {
+                font-size: 18px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Soft Return Press</h1>
-    <p>Welcome to Soft Return Press.</p>
-    <p>This site is currently being rebuilt.</p>
+
+    <header>
+
+        <div class="logo">
+            <!-- Replace with your actual logo -->
+            <img src="images/logo.png" alt="Soft Return Press">
+        </div>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="books.html">Books</a>
+            <a href="pressroom.html">Pressroom</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <p>
+            <strong>Soft Return Press</strong> is an independent publishing company devoted to
+            exploring the human experience in a time of rapid change.
+        </p>
+
+        <p>
+            Our debut title,
+            <em>Interview with Intelligence</em>,
+            begins a conversation that bridges technology and soul,
+            machine and meaning. It’s the first of what we hope will be many works—ranging
+            from profound to lighthearted—all reflecting on what it means to be fully alive.
+        </p>
+
+        <p class="tagline">
+            Discover the work. Read the conversation. Join the shift.
+            <a href="books.html" class="button">Learn More</a>
+        </p>
+
+    </main>
+
+    <footer>
+
+        <div class="social">
+            <a href="#">in</a>
+            <a href="#">f</a>
+            <a href="#">◎</a>
+        </div>
+
+        <p>©2025 Soft Return Press, LLC</p>
+
+    </footer>
+
 </body>
+
 </html>
