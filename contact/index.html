@@ -1,1 +1,194 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Soft Return Press</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: #e8e4de;
+      color: #222;
+      font-family: "Libre Baskerville", serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 45px 80px;
+    }
+
+    .logo img {
+      width: 140px;
+      height: auto;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #222;
+      margin-left: 40px;
+      font-size: 18px;
+    }
+
+    nav a.active,
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-button {
+      display: block;
+      width: 170px;
+      margin: 12px auto;
+      padding: 12px 16px;
+      border: 2px solid #111;
+      border-radius: 4px;
+      color: #111;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .contact-button:hover {
+      background: #111;
+      color: #fff;
+    }
+
+    main {
+      max-width: 520px;
+      margin: 45px auto 0;
+    }
+
+    h1 {
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 26px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+
+    .contact-box {
+      background: #dcd7cf;
+      margin-top: 28px;
+      padding: 36px 32px;
+      text-align: center;
+    }
+
+    .contact-box p {
+      margin-bottom: 12px;
+    }
+
+    .email-link {
+      display: inline-block;
+      margin-top: 8px;
+      color: #222;
+      font-size: 20px;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 110px 20px 35px;
+    }
+
+    .social {
+      margin-bottom: 14px;
+    }
+
+    .social a {
+      color: #222;
+      text-decoration: none;
+      font-size: 24px;
+      margin: 0 10px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+
+     footer p {
+            font-size: 14px;
+        }
+
+    @media (max-width: 900px) {
+      header {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 20px;
+      }
+
+      main {
+        margin: 45px 30px 0;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="../Soft-Return-Press-logo-web.png" alt="Soft Return Press">
+      </a>
+    </div>
+
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../about/">About</a>
+      <a href="../books/">Books</a>
+      <a href="../contact/" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Soft Return Press.</h1>
+
+    <p>
+      Have a question, collaboration idea, media inquiry, or just want to say hello?
+      We’d love to hear from you.
+    </p>
+
+    <p>
+      Whether you’re curious about our books, interested in review copies, or simply
+      want to connect with us, feel free to reach out.
+    </p>
+
+    <div class="contact-box">
+      <a class="contact-button" href="mailto:softreturnpress@gmail.com" target="_blank">Email Us</a>
+    </div>
+  </main>
+
+  <footer>
+      <div class="social">
+            <a href="https://www.linkedin.com/company/softreturnpress"><img src="../LinkedIn.png" alt="LinkedIn"></a>
+            <a href="http://facebook.com/softreturnpress"><img src="../Facebook.png" alt="Facebook"></a>
+            <a href="http://instagram.com/softreturnpress"><img src="../Instagram.png" alt="Instagram"></a>
+      </div>
+
+    <p>©2026 Soft Return Press, LLC</p>
+  </footer>
+
+</body>
+
+</html>
